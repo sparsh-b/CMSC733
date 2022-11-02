@@ -9,3 +9,8 @@
   - <b>Feature Detection & Tracking</b>: Implemented a Harris operator based corner detector followed by Non-maxima Suppression to select a few good keypoints & used the Kanade-Lucas-Tomasi procedure to track the movement of those keypoints in a video.
   - <b>Shape Alignment</b>: Given two shape outlines (masks) of similar objects, Iterative Closest Point Algorithm is used to find a transformation matrix between them.
   - <b>Object Instance Recognition</b>: Using SIFT-features of keypoints in 2 images Lowe-style object instance recognition is implemented.
+
+## Assignment 3:
+  - <b>Epipolar Geometry</b>: Given a pair of stereo images, estimated homography matrix between them using the normalized 8-point algorithm.
+  - <b>Image Stitching</b>: Given a set of overlapping images, detect the repeating keypoints in a successive pair of images & calculate the Fundamental Matrix between the 2 images using RANSAC & normalized 8-point algorithm & finally combine the 2 images.
+  - <b>Affine Structure from Motion</b>: Given a sequence of images with camera movement involving only affine transformations, recover the 3D structure of the scene.

@@ -14,3 +14,7 @@
   - <b>Epipolar Geometry</b>: Given a pair of stereo images, estimated homography matrix between them using the normalized 8-point algorithm.
   - <b>Image Stitching</b>: Given a set of overlapping images, detect the repeating keypoints in a successive pair of images & calculate the Fundamental Matrix between the 2 images using RANSAC & normalized 8-point algorithm & finally combine the 2 images.
   - <b>Affine Structure from Motion</b>: Given a sequence of images with camera movement involving only affine transformations, recover the 3D structure of the scene.
+
+## Assignment 4:
+  - <b>SLIC Super-pixel Segmentation</b>: Implemented the [SLIC](www.kev-smith.com/papers/SMITH_TPAMI12.pdf) super-pixel segmentation algorithm from scratch.
+  - <b>Graph-cut Segmentation</b>: Implemented Graph-cut segmentation using OpenCV.

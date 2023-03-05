@@ -6,8 +6,8 @@
   - <b>Template Matching</b>: A SSD (Sum of Squared Differences) based template matching algorithm is implemented.
 
 ## Assignment 2:
-  - <span style="font-size:20px;"><b>Feature Detection & Tracking</b>:</span> Implemented a Harris operator based corner detector followed by Non-maxima Suppression to select a few good keypoints & used the Kanade-Lucas-Tomasi procedure to track the movement of those keypoints in a video.
-  - <b>Shape Alignment</b>: Given two shape outlines (masks) of similar objects, Iterative Closest Point Algorithm is used to find a transformation matrix between them.
+  - <span style="font-size:20px;"><b>[Feature Detection & Tracking](https://github.com/sparsh-b/CMSC733/blob/master/Feature_Tracking.ipynb)</b>:</span> Implemented a Harris operator based corner detector followed by Non-maxima Suppression to select a few good keypoints & used the Kanade-Lucas-Tomasi procedure to track the movement of those keypoints in a video.
+  - <b>[Shape Alignment](https://github.com/sparsh-b/CMSC733/blob/master/Shape_Alignment_with_ICP.ipynb)</b>: Given two shape outlines (masks) of similar objects, Iterative Closest Point Algorithm is used to find a transformation matrix between them.
   - <span style="font-size:20px;"><b>Object Instance Recognition</b>:</span> Using SIFT-features of keypoints in 2 images Lowe-style object instance recognition is implemented.
 
 ## Assignment 3:
